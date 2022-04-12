@@ -1,0 +1,13 @@
+GET http://localhost:3000/weather
+###
+GET http://localhost:3000/weather-history
+
+
+###
+POST http://localhost:3000/weather
+Content-Type: application/json
+
+{
+    "temperature":"40",
+    "humidity":"60"
+}
